@@ -1,0 +1,82 @@
+C:\Files\AI\workshop\geoplanning\.env
+# Игнорируемые файлы и папки
+
+# Входные данные (если не нужны в репозитории)
+data/*.csv
+data/raw/
+data/processed/
+!data/sample_data.csv  # пример данных можно оставить
+
+# Выходные данные
+outputs/
+!outputs/.gitkeep
+
+# OSRM данные (тяжелые)
+osrm_data/*.osrm*
+osrm_data/*.pbf
+!osrm_data/start_osrm.bat
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Логи и кэш
+*.log
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Конфигурационные файлы с секретами
+.env
+.secrets/
+configs/local/
+*.local.yaml
+
+# Временные файлы
+temp/
+tmp/
+
+# OS специфичные
+Desktop.ini
+
+# Streamlit
+.streamlit/secrets.toml
