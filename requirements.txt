@@ -1,0 +1,37 @@
+# Core data & math
+pandas>=1.5
+numpy>=1.23
+scipy>=1.9
+
+# Machine Learning / clustering
+scikit-learn>=1.2
+
+# Geospatial & routing
+requests>=2.28
+shapely>=2.0
+geopy>=2.3
+
+# Visualization
+folium>=0.14
+matplotlib>=3.6
+
+# Reports
+reportlab>=4.0
+Pillow>=9.4
+
+# Web UI
+streamlit>=1.28
+
+# Browser automation (screenshots for PDF)
+playwright>=1.40
+
+# Configs & env
+python-dotenv>=1.0
+PyYAML>=6.0
+
+# Utils
+tqdm>=4.65
+loguru>=0.7
+
+# Optional / compatibility
+typing-extensions>=4.5; python_version < "3.11"
