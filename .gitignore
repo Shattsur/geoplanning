@@ -1,6 +1,6 @@
 C:\Files\AI\workshop\geoplanning\.env
 # Игнорируемые файлы и папки
-C:\Files\AI\workshop\geoplanning\ТЗ\*
+ТЗ/
 # Входные данные (если не нужны в репозитории)
 data/*.csv
 data/raw/
